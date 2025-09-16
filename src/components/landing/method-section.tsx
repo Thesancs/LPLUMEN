@@ -15,27 +15,27 @@ const methodSteps: {
 }[] = [
   {
     icon: ClipboardIcon,
-    title: "1. Diagnóstico Completo",
+    title: "FASE 1: DIAGNÓSTICO GRATUITO",
     description:
-      "Iniciamos com uma análise profunda para identificar vulnerabilidades, riscos e pontos fracos em sua infraestrutura digital.",
+      "Visita técnica completa com mapeamento 3D de vulnerabilidades e relatório detalhado.",
   },
   {
     icon: Lightbulb,
-    title: "2. Estratégia Personalizada",
+    title: "FASE 2: PROJETO PERSONALIZADO",
     description:
-      "Com base no diagnóstico, desenhamos um plano de segurança sob medida, alinhado às necessidades e ao orçamento do seu negócio.",
+      "Desenvolvimento de solução única baseada em suas necessidades específicas e orçamento.",
   },
   {
     icon: Cog,
-    title: "3. Implementação Robusta",
+    title: "FASE 3: INSTALAÇÃO PROFISSIONAL",
     description:
-      "Nossos especialistas implementam as ferramentas e políticas de segurança mais avançadas do mercado, com o mínimo de interrupção.",
+      "Execução certificada com testes rigorosos e treinamento da equipe.",
   },
   {
     icon: ShieldCheck,
-    title: "4. Monitoramento Contínuo",
+    title: "FASE 4: MONITORAMENTO ATIVO",
     description:
-      "A segurança não para. Monitoramos seus sistemas 24/7 para detectar e responder a ameaças em tempo real, garantindo sua tranquilidade.",
+      "Acompanhamento contínuo com relatórios mensais e manutenções preventivas.",
   },
 ];
 
@@ -49,7 +49,7 @@ export function MethodSection() {
         <FadeIn>
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Nosso Método de Implementação
+              Método Lumen de Implementação
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Um processo transparente e eficaz para garantir que sua empresa

@@ -13,7 +13,7 @@ export function SecurityAlertSection() {
             <AlertTriangle className="h-12 w-12 text-destructive" />
             <div className="space-y-2">
               <h2 className="text-3xl font-headline font-bold text-destructive">
-                Alerta de Segurança: Você Está Realmente Seguro?
+                ALERTA DE SEGURANÇA CRÍTICO
               </h2>
               <p className="max-w-3xl mx-auto text-foreground md:text-lg">
                 Cibercriminosos estão mais sofisticados do que nunca. Uma única
