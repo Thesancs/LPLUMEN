@@ -1,8 +1,9 @@
 import {
   ShieldCheck,
-  TrendingUp,
-  Smile,
   Zap,
+  Award,
+  Lock,
+  Rocket,
   type LucideIcon,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
@@ -10,24 +11,24 @@ import { FadeIn } from "./fade-in";
 
 const metrics: { icon: LucideIcon; value: string; label: string }[] = [
   {
-    icon: ShieldCheck,
+    icon: Award,
     value: "+500",
-    label: "Empresas Protegidas",
-  },
-  {
-    icon: TrendingUp,
-    value: "99.8%",
-    label: "Ameaças Bloqueadas",
+    label: "Projetos Executados",
   },
   {
     icon: Zap,
-    value: "< 10 min",
-    label: "Tempo de Resposta",
+    value: "24/7",
+    label: "Proteção Ativa",
   },
   {
-    icon: Smile,
-    value: "4.9/5",
-    label: "Satisfação de Clientes",
+    icon: Lock,
+    value: "Zero",
+    label: "Falhas de Segurança",
+  },
+  {
+    icon: Rocket,
+    value: "2025",
+    label: "Tecnologia de Ponta",
   },
 ];
 
