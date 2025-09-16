@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <TopBar />
-      <main className="flex-grow pt-16">
+      <main className="flex-grow">
         <HeroSection />
         <NumbersSection />
         <PortfolioSection />

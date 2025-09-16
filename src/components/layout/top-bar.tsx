@@ -14,7 +14,7 @@ const WhatsAppIcon = () => (
 
 export function TopBar() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link
           href="/"
@@ -26,14 +26,14 @@ export function TopBar() {
           <a
             href="#"
             aria-label="Instagram"
-            className="text-foreground hover:text-primary transition-colors"
+            className="text-white hover:text-primary transition-colors"
           >
             <Instagram />
           </a>
           <a
             href="#"
             aria-label="WhatsApp"
-            className="text-foreground hover:text-primary transition-colors"
+            className="text-white hover:text-primary transition-colors"
           >
             <WhatsAppIcon />
           </a>
