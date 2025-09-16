@@ -8,11 +8,13 @@ import { SecurityAlertSection } from "@/components/landing/security-alert-sectio
 import { OfferSection } from "@/components/landing/offer-section";
 import { ContactSection } from "@/components/landing/contact-section";
 import { FooterSection } from "@/components/landing/footer-section";
+import { TopBar } from "@/components/layout/top-bar";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <main className="flex-grow">
+      <TopBar />
+      <main className="flex-grow pt-16">
         <HeroSection />
         <NumbersSection />
         <PortfolioSection />
