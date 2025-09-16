@@ -31,6 +31,9 @@ export function SecurityAlertSection() {
                   </li>
                 ))}
               </ul>
+              <p className="font-bold text-xl pt-4">
+                Pergunta direta: Quanto isso custaria para você?
+              </p>
             </div>
           </div>
         </div>
