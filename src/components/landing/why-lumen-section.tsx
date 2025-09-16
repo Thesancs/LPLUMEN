@@ -1,8 +1,10 @@
 import Image from "next/image";
 import {
   BrainCircuit,
-  ShieldEllipsis,
   Users,
+  Smartphone,
+  RefreshCw,
+  LifeBuoy,
   type LucideIcon,
 } from "lucide-react";
 import { FadeIn } from "./fade-in";
@@ -14,21 +16,32 @@ const differentiators: {
 }[] = [
   {
     icon: BrainCircuit,
-    title: "Tecnologia de Ponta",
+    title: "Inteligência Artificial Integrada",
     description:
-      "Utilizamos IA e as ferramentas mais avançadas para prever e neutralizar ameaças antes que elas aconteçam.",
+      "Nossos sistemas aprendem padrões, detectam anomalias e agem preventivamente.",
   },
   {
     icon: Users,
-    title: "Especialistas Dedicados",
+    title: "Engenharia Própria",
     description:
-      "Nossa equipe é formada por veteranos da cibersegurança, prontos para serem uma extensão do seu time.",
+      "Equipe técnica interna com certificações internacionais e experiência comprovada.",
   },
   {
-    icon: ShieldEllipsis,
-    title: "Soluções Sob Medida",
+    icon: Smartphone,
+    title: "Controle Total Mobile",
     description:
-      "Não acreditamos em soluções de prateleira. Cada estratégia é única, desenhada para o seu desafio específico.",
+      "Monitore e controle tudo pelo smartphone, de qualquer lugar do mundo.",
+  },
+  {
+    icon: RefreshCw,
+    title: "Upgrade Constante",
+    description:
+      "Tecnologia sempre atualizada sem custos adicionais durante vigência do contrato.",
+  },
+  {
+    icon: LifeBuoy,
+    title: "Resposta Emergencial",
+    description: "Suporte técnico 24h com tempo de resposta máximo de 4 horas.",
   },
 ];
 
@@ -46,7 +59,7 @@ export function WhyLumenSection() {
                 Nossos Diferenciais
               </div>
               <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Por Que a Lumen é Diferente?
+                Por Que a Lumen é Sua Melhor Decisão
               </h2>
               <ul className="grid gap-6 mt-6">
                 {differentiators.map((item) => (
