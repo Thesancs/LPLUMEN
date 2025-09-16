@@ -1,5 +1,5 @@
 import {
-  ClipboardScan,
+  ClipboardIcon,
   Lightbulb,
   Cog,
   ShieldCheck,
@@ -14,7 +14,7 @@ const methodSteps: {
   description: string;
 }[] = [
   {
-    icon: ClipboardScan,
+    icon: ClipboardIcon,
     title: "1. Diagnóstico Completo",
     description:
       "Iniciamos com uma análise profunda para identificar vulnerabilidades, riscos e pontos fracos em sua infraestrutura digital.",
